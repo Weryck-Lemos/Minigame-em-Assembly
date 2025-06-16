@@ -1,11 +1,11 @@
-%include "src/biblioteca.inc"
+%include "src/biblioteca.asm"
 section .text
 global main
 
 main:
     call banner
 
-    mov eax, 30000000000
+    mov eax, 20000000000
     call delay
     call limpar
 

@@ -3,7 +3,7 @@ all: bin/jogo
 bin/jogo: obj/main.o obj/funcoes.o
 	gcc -m32 obj/main.o obj/funcoes.o -o bin/jogo
 
-obj/main.o: src/main.asm src/biblioteca.inc
+obj/main.o: src/main.asm src/biblioteca.asm
 	mkdir -p obj
 	nasm -f elf32 src/main.asm -o obj/main.o
 
