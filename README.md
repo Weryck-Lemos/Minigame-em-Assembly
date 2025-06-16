@@ -38,7 +38,7 @@ sudo apt install nasm make
 No terminal:
 
 ```bash
-cd ~/Documentos/Minigame\ em\ Assembly/Codigo
+cd ~/Downloads/Minigame\ em\ Assembly/Codigo
 make
 make run
 ```
