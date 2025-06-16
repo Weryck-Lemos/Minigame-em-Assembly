@@ -16,7 +16,7 @@
 4. Em seguida, ela desaparece e você precisa digitar exatamente o que foi mostrado.
 5. O jogo dirá se você acertou ou errou.
 
-✅ Quanto maior a dificuldade, maior a sequência — e menor o tempo para memorização!
+**Quanto maior a dificuldade, maior a sequência e menor o tempo para memorização!**
 
 ---
 
