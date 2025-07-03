@@ -5,7 +5,7 @@ global main
 main:
     call banner
 
-    mov eax, 20000000000
+    mov eax, 1000000000
     call delay
     call limpar
 
@@ -38,7 +38,7 @@ main:
 ;Verifica se resposta == msg
     mov ecx, msg
     mov edx, resposta
-    call strcmp_simples
+    call strcmp
 
     push resposta
     push msg
@@ -46,8 +46,7 @@ main:
     add esp, 8
 
 ;Errou a Resposta
-    mov ebx, eax
-    mov eax, [tamanho]
+    mov ebx, [tamanho]
     cmp ebx, eax
     jne .errou
 

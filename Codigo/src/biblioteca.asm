@@ -59,7 +59,6 @@ limpar:
 ;-----------------------
 delay:
     push ecx
-    mov ecx, eax
     
 .delay_loop:
     nop
@@ -73,7 +72,7 @@ delay:
 ;-----------------------
 ;*   Comparar Strings  *
 ;-----------------------
-strcmp_simples:
+strcmp:
     push esi
     push edi
 
